@@ -1,0 +1,56 @@
+
+		
+.a{
+		display: inline-block;
+		border-radius: 50%;
+		width:100px;/*图片大小*/
+		border-style: solid;
+		font-size: 14px;/*图片边框*/
+		text-align: center;
+		line-height: 30px;
+		text-decoration: none;
+		}/*欢迎参观和图片大小边框*/
+
+		.ba{
+ 			width: 300px;
+ 			padding:5px 100px;/*填料：5px 300px；*/
+ 			border-radius:10px;/*边界半径：10px；*/
+ 			background-color:silver;/*背景色：银色；*/
+ 			transition:background-color 1s linear;/*过渡：背景色1s线性；*/
+ 			margin-left:auto;/*左边距：自动*/
+ 			margin-right:auto;/*右边距：自动；*/
+ 		}
+ 		.ba:hover{
+ 			background: linear-gradient(9deg,#EC7063,#AF7AC5,#A569BD,#5499C7,#5DADE2,#48C9B0,#58D68D,#F5B041,#F4D03F);
+ 		}
+ 			.left{
+						left:0px;
+					}
+					.right{
+						right:-50px;
+					}
+
+					.fdtp img{
+						width: 150px;
+					}
+					.fdtp{
+						position:fixed;
+						top:50px;
+					}
+					.box{
+						width:200px;
+						height:200px;
+						float:left;
+						transition:linear 1s;
+						transform-style:preserve-3d;
+					}
+					.x:hover{
+						transform:rotateX(90deg); 
+					}
+					.box2{
+						width:200px;
+						height:200px;
+						float:right;
+						transition:linear 1s;
+						transform-style:preserve-3d;
+					}
